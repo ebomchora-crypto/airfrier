@@ -1,5 +1,5 @@
 const steps = [
-  { title: "Download Your Cookbook", body: "Get your digital recipe collection after completing your purchase." },
+  { title: "Get Instant Access", body: "Right after checkout, you'll receive an email with access to your digital cookbook." },
   { title: "Pick a Recipe", body: "Browse 30 delicious ideas or follow one of the included weekly meal plans." },
   { title: "Start Cooking", body: "Grab your ingredients, preheat your air fryer, and enjoy a homemade meal." },
 ];

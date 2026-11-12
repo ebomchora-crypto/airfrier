@@ -11,7 +11,7 @@ export function Inside() {
 
         <div className="mt-8 grid gap-4 lg:grid-cols-[0.8fr_1.6fr] lg:gap-8">
           <div className="flex justify-center py-4 lg:items-center">
-            <CookbookMockup className="w-[200px] -rotate-3 sm:w-[240px]" />
+            <CookbookMockup className="w-[220px] -rotate-3 sm:w-[260px]" />
           </div>
 
           <div className="grid gap-4 sm:grid-cols-2">
@@ -60,7 +60,7 @@ export function Inside() {
         </div>
 
         <div className="mt-10 flex justify-center">
-          <CtaButton>Get My Cookbook — $8</CtaButton>
+          <CtaButton location="inside">Get My Cookbook — $8</CtaButton>
         </div>
       </div>
     </section>

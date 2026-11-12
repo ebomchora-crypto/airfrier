@@ -7,6 +7,7 @@ export const CHECKOUT_URL = "https://pay.kiwify.com/RQ1B2gt";
 export const PRODUCT = {
   name: "Air Fryer Meals for Two",
   price: "$8",
-  priceFull: "$8.00",
-  siteUrl: "", // optional: set to your production URL for canonical/OG tags
+  priceValue: 8,
+  currency: "USD",
+  guaranteeDays: 7,
 } as const;
