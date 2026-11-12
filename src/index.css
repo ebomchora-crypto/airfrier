@@ -1,0 +1,18 @@
+@import "@fontsource-variable/fraunces/index.css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
+  @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+  body { @apply bg-ivory text-espresso font-sans antialiased; }
+  h1, h2, h3 { @apply font-display; text-wrap: balance; }
+  :focus-visible { outline: 3px solid #302018; outline-offset: 3px; border-radius: 6px; }
+}
+
+@layer components {
+  .container-page { @apply mx-auto w-full max-w-6xl px-5 sm:px-8; }
+  .eyebrow { @apply text-xs font-bold uppercase tracking-[0.16em] text-ember; }
+  .section-title { @apply font-display text-[1.75rem] leading-[1.15] font-semibold sm:text-4xl; }
+}
